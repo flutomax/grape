@@ -1,0 +1,77 @@
+object FrmAbout: TFrmAbout
+  Left = 240
+  Height = 291
+  Top = 147
+  Width = 417
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'About Grape'
+  ClientHeight = 291
+  ClientWidth = 417
+  OnCreate = FormCreate
+  Position = poOwnerFormCenter
+  LCLVersion = '1.6.0.4'
+  object lbVer: TLabel
+    Left = 160
+    Height = 15
+    Top = 72
+    Width = 26
+    Caption = 'lbVer'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 160
+    Height = 15
+    Top = 96
+    Width = 175
+    Caption = '© Copyright 2018 Vasily Makarov'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 16
+    Height = 90
+    Top = 152
+    Width = 344
+    Caption = 'This program is free software. You are allowed to redistribute this '#13#10'software and making the software available for download or '#13#10'making this software part of a software CD compilation.'#13#10'This software is provided ''as-is'', without any express or implied '#13#10'warranty.  In no event will the author be held liable for any '#13#10'damages arising from the use of this software.'
+    ParentColor = False
+    WordWrap = True
+  end
+  object Image: TImage
+    Left = 10
+    Height = 128
+    Top = 8
+    Width = 128
+  end
+  object Label1: TLabel
+    Left = 160
+    Height = 54
+    Top = 8
+    Width = 119
+    Caption = 'GRAPE'
+    Font.Height = -40
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Cursor = crHandPoint
+    Left = 160
+    Height = 15
+    Top = 120
+    Width = 116
+    Caption = 'http://stone-voices.ru'
+    Font.Color = clNavy
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+    OnClick = Label2Click
+  end
+  object Button1: TButton
+    Left = 320
+    Height = 25
+    Top = 250
+    Width = 75
+    Caption = 'Donation...'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+end

@@ -1,6 +1,6 @@
 # grape
 
-The program is intended for needs of designers, architects, decorators and тп. 😉
+The program is intended for needs of designers, architects, decorators and so forth. 😉
 Assignment - conversions of the bitmap image in popular formats (*.png; *.xpm; *.bmp; *.jpeg; *.jpg; *.jpe; *.jfif; *.tif; *.tiff; *.gif; *.pbm; *.pgm; *.ppm)
 in vectorial, a perforation method holes in the form of circles, squares or rhombs, with the given parameters. An output format - *.dxf which you will be able to open in any vectorial editor, or, for example, to send to laser-beam cutting. 
 
